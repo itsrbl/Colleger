@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Colleger</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+    </string>
+    <string name="admob_app_id">ca-app-pub-3001804356539303~5547676007</string>
+    <string name="admob_test_app_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_banner_id">ca-app-pub-3001804356539303/2729940972</string>
+</resources>

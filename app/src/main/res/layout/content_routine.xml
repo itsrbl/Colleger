@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="dev.rabbul.colleger.Routine">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            app:title="Routine"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+        <!-- Layout Contains -->
+        <HorizontalScrollView
+            android:layout_marginTop="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TableRow
+                    android:background="#FFE082"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DAYS" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DAYS" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DAYS" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DAYS" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DAYS" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DAYS" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DAYS" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DAYS" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DAYS" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DAYS" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DAYS" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DAYS" />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#DAE8FC"
+                    android:padding="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+                <TableRow
+                    android:background="#DAE8FC"
+                    android:padding="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+                <TableRow
+                    android:background="#DAE8FC"
+                    android:padding="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#81D4FA"
+                        android:padding="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monday">
+
+                        <TextView
+                            android:text="ENGH \n BNGH \n PHIH \n EDCH \n HISH \n ENGH \n BNGH \n PHIH \n EDCH \n HISH"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </HorizontalScrollView>
+        <!-- Layout Contains -->
+
+</RelativeLayout>
