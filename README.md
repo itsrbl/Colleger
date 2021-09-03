@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Rabbul Ansary</h1>
+<h1 align="center">Hi 👋, I'm Rabbul</h1>
 - 🔭 I’m currently working on [Colleger](https://github.com/itsrbl/Colleger)
 
 - 🌱 I’m currently learning **Full Stack Web Development**
